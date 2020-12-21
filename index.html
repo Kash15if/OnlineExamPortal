@@ -64,7 +64,6 @@
         .Ques{
             text-align: left;
             padding: 5% 10% 0 10%;
-            font-family: 'Righteous', cursive;
         }
         .Box button {
             font-size: 6vw;
@@ -184,10 +183,16 @@
           
                   <h2 style="text-align: center;"> Question No. 1</h2>
               
-                  <h3> A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, 
+                  <h4> A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, 
                     then the fraction of the work that is left is, A can do a work in 15 days and B in 20 days. 
                     If they work on it together for 4 days, then the fraction of the work that is left is : 
-                  </h3>
+                    15 days and B in 20 days. If they work on it together for 4 days, 
+                    then the fraction of the work that is left is, A can do a work in 15 days and B in 20 days. 
+                    If they work on it together for 4 days, then the fraction of the work that is left is : 
+                    15 days and B in 20 days. If they work on it together for 4 days, 
+                    then the fraction of the work that is left is, A can do a work in 15 days and B in 20 days. 
+                    If they work on it together for 4 days, then the fraction of the work that is left is : 
+                  </h4>
           
                   <div style="font-family: 'Righteous', cursive;">
                       <input type="radio"  name="ans" v-model="qAns" value="A" >
@@ -201,8 +206,11 @@
                   </div><br><br>
           
               </div>
-          
-              <button type="button" @click="submit" >Save and Next</button> 
+              <div style="text-align: left;">
+                <button type="button" class="btn btn-danger" style="width: auto; background-color: #ff0037;font-size: 15px;">Clear Response</button>
+              
+              </div>
+            <button type="button" @click="submit" >Save and Next</button> 
             
           </div>
 
